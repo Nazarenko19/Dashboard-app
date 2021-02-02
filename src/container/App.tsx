@@ -1,9 +1,17 @@
-function App() {
+import Header from "components/Header";
+
+const App: React.FC = () => {
   return (
-    <div className="App">
-      <h1 className="text-red-500">Yoooo</h1>
-    </div>
+    <>
+      <Header />
+      <hr
+        style={{
+          borderColor: "#cacaca",
+          borderTopWidth: 1,
+        }}
+      />
+    </>
   );
-}
+};
 
 export default App;
