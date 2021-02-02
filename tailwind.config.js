@@ -6,6 +6,12 @@ module.exports = {
       sans: ["sans-serif"],
     },
     extend: {
+      fontSize: {
+        "1xs": ".60rem",
+        xs: ".65rem",
+        sm: ".75rem",
+        base: ".85rem",
+      },
       colors: {
         boulder: {
           50: "#f8f8f8",
@@ -18,6 +24,14 @@ module.exports = {
           700: "#5c5c5c",
           800: "#494949",
           900: "#3c3c3c",
+        },
+        graph: {
+          100: "#b2b2b2",
+          200: "#999999",
+          300: "#666666",
+        },
+        borderColor: {
+          'default': "#cacaca",
         },
       },
     },

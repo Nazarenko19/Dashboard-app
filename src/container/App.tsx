@@ -1,15 +1,9 @@
-import Header from "components/Header";
+import DashboardPage from "view/DashboardPage";
 
 const App: React.FC = () => {
   return (
     <>
-      <Header />
-      <hr
-        style={{
-          borderColor: "#cacaca",
-          borderTopWidth: 1,
-        }}
-      />
+      <DashboardPage />
     </>
   );
 };

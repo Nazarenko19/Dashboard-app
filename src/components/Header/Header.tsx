@@ -4,11 +4,9 @@ import UserProfile from "./components/UserProfile";
 
 const Header: React.FC = () => {
   return (
-    <div className="container mx-auto">
-      <div className="flex justify-between items-center">
-        <Logo />
-        <UserProfile />
-      </div>
+    <div className="container mx-auto flex justify-between items-center">
+      <Logo />
+      <UserProfile />
     </div>
   );
 };

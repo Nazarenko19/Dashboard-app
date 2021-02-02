@@ -1,7 +1,17 @@
 import React from "react";
 
-const SectionTitle: React.FC = () => {
-  return <>Section Title</>;
+type SectionTitleProps = {
+  text: string;
+};
+
+const SectionTitle: React.FC<SectionTitleProps> = ({ text }) => {
+  return (
+    <>
+      <div className="text-sm text-boulder-500 font-medium uppercase mb-2">
+        {text}
+      </div>
+    </>
+  );
 };
 
 export default SectionTitle;
