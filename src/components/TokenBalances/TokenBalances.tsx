@@ -9,9 +9,9 @@ type TokenBalancesProps = {
 
 const TokenBalances: React.FC<TokenBalancesProps> = () => {
   return (
-    <div className="container mx-auto px-11 mb-6">
+    <div className="container mx-auto xl:px-80 px-1 mb-6">
       <SectionTitle text="Token Balances" />
-      {1 ? <TableLayout /> : <LockLayout />}
+      {0 ? <TableLayout /> : <LockLayout />}
     </div>
   );
 };

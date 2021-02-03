@@ -6,7 +6,7 @@ import Separator from "components/Separator";
 
 const AssetDistribution: React.FC = () => {
   return (
-    <div className="container mx-auto px-11 mb-4 ">
+    <div className="container mx-auto xl:px-80 px-1 mb-4 ">
       <SectionTitle text="Asset Distribution" />
       <Separator marginBottom="1rem" width="4rem" />
 
