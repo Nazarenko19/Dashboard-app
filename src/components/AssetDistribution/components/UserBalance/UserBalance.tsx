@@ -11,8 +11,8 @@ const UserBalance: React.FC = () => {
           <span className="text-sm text-boulder-500 font-medium uppercase px-1">
             Eth Balance
           </span>
-          <span className="text-sm text-boulder-500 font-medium uppercase px-1">
-            ~
+          <span className="text-sm text-boulder-500 font-light uppercase px-1">
+            21,35 Eth
           </span>
         </div>
         <EthSvg />
@@ -23,8 +23,8 @@ const UserBalance: React.FC = () => {
           <span className="text-sm text-boulder-500 font-medium uppercase px-1">
             Total usd
           </span>
-          <span className="text-sm text-boulder-500 font-medium uppercase px-1">
-            ~
+          <span className="text-sm text-boulder-500 font-light uppercase px-1">
+            $ 211 324
           </span>
         </div>
         <UsdSvg />
@@ -35,8 +35,8 @@ const UserBalance: React.FC = () => {
           <span className="text-base text-boulder-500 font-medium uppercase px-1">
             Total Tokens
           </span>
-          <span className="text-sm text-boulder-500 font-medium uppercase px-1">
-            ~
+          <span className="text-sm text-boulder-500 font-normal uppercase px-1">
+            123
           </span>
         </div>
 

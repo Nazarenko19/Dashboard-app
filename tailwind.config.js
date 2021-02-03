@@ -31,8 +31,11 @@ module.exports = {
           300: "#666666",
         },
         borderColor: {
-          'default': "#cacaca",
+          default: "#cacaca",
         },
+      },
+      height: {
+        lock: "14.5rem",
       },
     },
   },
