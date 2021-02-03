@@ -11,7 +11,7 @@ const TokenBalances: React.FC<TokenBalancesProps> = () => {
   return (
     <div className="container mx-auto xl:px-80 px-1 mb-6">
       <SectionTitle text="Token Balances" />
-      {0 ? <TableLayout /> : <LockLayout />}
+      {1 ? <TableLayout /> : <LockLayout />}
     </div>
   );
 };
