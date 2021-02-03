@@ -1,9 +1,11 @@
-function App() {
+import DashboardPage from "view/DashboardPage";
+
+const App: React.FC = () => {
   return (
-    <div className="App">
-      <h1 className="text-red-500">Yoooo</h1>
-    </div>
+    <>
+      <DashboardPage />
+    </>
   );
-}
+};
 
 export default App;
