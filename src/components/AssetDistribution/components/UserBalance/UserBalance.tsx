@@ -6,7 +6,7 @@ import { ReactComponent as TokensSvg } from "icons/tokens.svg";
 const UserBalance: React.FC = () => {
   return (
     <div className="flex flex-col">
-      <div className="border border-borderColor-default p-4 flex justify-between items-center xl:mb-10 mb-4">
+      <div className="border border-borderColor-default p-4 flex justify-between items-center xl:mb-10 mb-4 rounded-xl">
         <div className="flex flex-col mr-8">
           <span className="text-sm text-boulder-500 font-medium uppercase px-1">
             Eth Balance
@@ -18,7 +18,7 @@ const UserBalance: React.FC = () => {
         <EthSvg />
       </div>
 
-      <div className="border border-borderColor-default p-4 flex justify-between items-center xl:mb-10 mb-4">
+      <div className="border border-borderColor-default p-4 flex justify-between items-center xl:mb-10 mb-4 rounded-xl">
         <div className="flex flex-col mr-10">
           <span className="text-sm text-boulder-500 font-medium uppercase px-1">
             Total usd
@@ -30,7 +30,7 @@ const UserBalance: React.FC = () => {
         <UsdSvg />
       </div>
 
-      <div className="border border-borderColor-default p-4 flex justify-between items-center">
+      <div className="border border-borderColor-default p-4 flex justify-between items-center rounded-xl">
         <div className="flex flex-col mr-10">
           <span className="text-base text-boulder-500 font-medium uppercase px-1">
             Total Tokens
